@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  background-color: #1a120b;
+  background-image: url(images/paper.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #d5cea3;
+  font-family: "ubuntu", sans-serif;
+}
+
+h2 {
+  font-size: 2.7rem;
+  color: #d5cea3;
+  font-family: "ubuntu", sans-serif;
+  font-size: 300;
+}
+
+h5 {
+  font-size: 2rem;
+  color: #d5cea3;
+  font-family: "ubuntu", sans-serif;
+  font-size: 300;
+}
+
+footer {
+  color: rgb(62, 62, 62);
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.footer-link {
+  color: rgb(62, 62, 62);
+  font-size: 1.2rem;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #3c2a21;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 7px solid #d5cea3;
+  background-color: #80533c;
+  font-size: 4rem;
+  font-family: "Noto Naskh Arabic";
+  line-height: 1;
+  font-weight: 400;
+  color: #d5cea3;
+  border-radius: 50px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+button.drum:hover {
+  background-color: gold;
+  color: #3c2a21;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+@media (min-width: 513px) and (max-width: 1184px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  button.drum {
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 512px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  button.drum {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 1.5rem;
+  }
+}
