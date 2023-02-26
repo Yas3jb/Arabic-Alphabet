@@ -5,7 +5,6 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
     var buttonInnerHTML = this.innerHTML;
 
     makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
   });
 }
 
@@ -146,14 +145,4 @@ function makeSound(buttonInnerHTML) {
       yaa.play();
       break;
   }
-}
-
-function buttonAnimation(buttonInnerHTML) {
-  var activeButton = document.querySelector("." + buttonInnerHTML);
-
-  activeButton.classList.add("pressed");
-
-  setTimeout(function () {
-    activeButton.classList.remove("pressed");
-  }, 100);
 }
