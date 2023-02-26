@@ -95,13 +95,13 @@ button.drum:hover {
 
 @media (max-width: 512px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   h5 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   button.drum {
     width: 100px;
